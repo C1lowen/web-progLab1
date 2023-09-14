@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+body{
+    background-image: url('https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png');
+    background-size: cover; /* Растягивает изображение, чтобы оно покрывало всю область */
+    background-position: center;
+}

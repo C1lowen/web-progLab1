@@ -1,0 +1,79 @@
+.rootHead {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR4Gbm05jHCD2V5Z-0CPjaYya_aXhmGMjDc9PQwLra&s');
+    background-size: cover; /* Растягивает изображение, чтобы оно занимало всю площадь элемента */
+    background-position: center; /* Выравнивание изображения по центру элемента */
+    text-align: center; /* Чтобы текст был по центру */
+    color: white; /* Цвет текста для лучшей видимости на фоне */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Установите минимальную высоту экрана, чтобы футер всегда был внизу */
+    margin: 0; /* Уберите внешние отступы */
+}
+
+
+.sidebar {
+    width: 33%; 
+    background-color: darkgrey;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box; /* Учтем padding в общей ширине */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Разрешает перенос элементов на новую строку */
+}
+
+.container, .newRootDiv {
+    flex: 1; /* Равномерно делит доступное горизонтальное пространство */
+    box-sizing: border-box; /* Учтем padding и border в общей ширине */
+}
+
+.container {
+    padding: 20px; /* Пример: добавьте нужный padding для .container */
+    background-color: darkgrey; /* Пример: добавьте стили для .container */
+}
+
+.newRootDiv {
+    padding: 20px; /* Пример: добавьте нужный padding для .newRootDiv */
+    background-color: rgb(197, 195, 202); /* Пример: добавьте стили для .newRootDiv */
+}
+
+.newRootDiv article header {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center; 
+    background-color:darkgrey;
+    height: 40px;
+}
+
+
+
+
+
